@@ -8,13 +8,13 @@ This challenge allows you to practice the concepts and techniques learned over t
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
-You are not allowed to collaborate during the Sprint Challenge. Your work reflects your proficiency in user interface and your command of the concepts and techniques in semantic HTML, CSS fundamentals, CSS flexbox module, and git.
+You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your TL if you need direction. Your work reflects your proficiency in user interface and your command of the concepts and techniques in semantic HTML, CSS fundamentals, CSS flexbox module, and git.
 
 You have three hours to complete this challenge. Plan your time accordingly.
 
 ## Commits
 
-Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons)
+Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons and your project manager.
 
 ## Description
 
@@ -34,19 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML provides both developer amd brooswer what the element consist of.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+the difference between the two is display inline is displayed on the same line while display block forces a line break.
 
 3. What are the 4 areas of the box model?
 
+content, padding, border, and margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+git is so important for several reasons; 1. is highly popular giving developers a platform for their codes. 2. it allows push and pull commands that make it easier for developers to get access tp content, and 3. it keeps record of your changes, allowing deveolpers to collaborate and tweak codes at will. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
 - [ ] Create a forked copy of this project.
+- [ ] Add your Team Lead as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
@@ -55,7 +66,9 @@ You are expected to be able to answer all these questions. Your responses contri
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-
+- [ ] Add your Team Lead as a reviewer on the pull-request
+- [ ] Your Team Lead will count the project as complete by merging the branch back into master.
+ 
 
 
 ## Minimum Viable Product
@@ -71,25 +84,25 @@ Your finished project must include all of the following requirements:
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [+] box1: `teal`
+* [+] box2: `gold`
+* [+] box3: `cadetblue`
+* [+] box4: `coral`
+* [+] box5: `crimson`
+* [+] box6: `forestgreen`
+* [+] box7: `darkorchid`
+* [+] box8: `hotpink`
+* [+] box9: `indigo`
+* [+] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [+] Copy and paste your home page navigation and header into the about page
+* [+] Update the header image with the about page image
+* [+] Link the `Home` navigation item back to the `index.html` page.
+* [+] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
