@@ -170,9 +170,6 @@ p {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
 }
-.container-about-page {
-  display: flex;
-}
 
 .top-content .text-container {
   width: 48%;
@@ -185,7 +182,8 @@ header {
   background: white;
 }
 
-.middle-content {
+.middle-content
+.container-about-page {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
 }
@@ -199,8 +197,23 @@ header {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  justify-content: ;
 }
+
+.middle-content .boxes .box {
+  width: 12.5%;
+  height: 100px;
+  margin: 20px 2.5%;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 2% 20px;
+  justify-items: space-evenly;
+}
+
+
 
 box-1 {
   background-color: teal;
@@ -240,20 +253,6 @@ box-9 {
 
 box-10 {
   background-color: dodgerblue;
-}
-
-.middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  margin: 20px 2.5%;
-  background: black;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin: 0 2% 20px;
-  justify-items: space-evenly;
 }
 
 .bottom-content {
