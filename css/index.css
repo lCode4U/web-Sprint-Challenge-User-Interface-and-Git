@@ -196,8 +196,7 @@ header {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  align-content: ;
-  justify-items: ;
+  justify-content: 
 }
 
 box-1 {
